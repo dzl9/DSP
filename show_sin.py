@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np 
 # linspace 第一个参数序列起始值, 第二个参数序列结束值,第三个参数为样本数默认50
-x = np.linspace(0, 3 * np.pi, 100)
+x = np.linspace(0, 3 * np.pi, 100)#生成一个[0,3*π]采样100个点的array
 y = np.sin(x)#生成x关于sin所对应的值y
 plt.rcParams['font.sans-serif']=['SimHei'] #加上这一句就能在图表中显示中文
 plt.rcParams['axes.unicode_minus']=False #用来正常显示负号
